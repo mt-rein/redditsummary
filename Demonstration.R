@@ -18,7 +18,7 @@ hist_comments(data = example, time = timestamp, bins = 30)
 #### histogram of sentiment scores across time ####
 source("functions/hist_sentiment.R")
 
-hist_sentiment(data = example, comment = comment, id = comment_id, time = timestamp, filter = wordfilter)
+hist_sentiment(data = example, comment = comment, id = comment_id, time = timestamp, filter = NULL)
 
 
 #### create a word cloud ####
